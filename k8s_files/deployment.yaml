@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: cloud-container
-        image: 509399624605.dkr.ecr.us-east-2.amazonaws.com/amazon-prime:9
+        image: 509399624605.dkr.ecr.us-east-2.amazonaws.com/amazon-prime:latest
         ports:
         - containerPort: 3000
 ...
