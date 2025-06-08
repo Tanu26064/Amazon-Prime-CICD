@@ -3,7 +3,7 @@ provider "aws"{
 }
 resource "aws_security_group" "aws_sg" {
     name = "Jenkins_sg"
-    description = "jenkins server port"
+    description = "jenkins ser port"
 
     #port 22 
     ingress{
